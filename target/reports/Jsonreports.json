@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-15T13:33:40.220Z",
+        "line": 4,
+        "name": "To validate login page with valid username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-icici-netbanking-application;to-validate-login-page-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10106682300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the edge browser and maximize window",
+            "match": {
+              "location": "C_01CucumberChallenge01.to_launch_the_edge_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3068774600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the URL of the ICICI netbanking application",
+            "match": {
+              "location": "C_01CucumberChallenge01.to_launch_the_url_of_the_icici_netbanking_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 427300800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass valid userId in input field",
+            "match": {
+              "location": "C_01CucumberChallenge01.to_pass_valid_userId_in_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279569300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass valid password in input field",
+            "match": {
+              "location": "C_01CucumberChallenge01.to_pass_valid_password_in_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214199100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click login button",
+            "match": {
+              "location": "C_01CucumberChallenge01.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 803061700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To close the browser",
+            "match": {
+              "location": "C_01CucumberChallenge01.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature06"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of ICICI netbanking application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-icici-netbanking-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/C_06Cucumber01.feature",
+    "tags": [
+      {
+        "name": "@feature06",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
